@@ -113,6 +113,11 @@ function nextQuestion() {
             UserAnswers = labels[i].innerText
         }
     }
+    if (!UserAnswers) {
+        alert("Please select an option before moving to next question!");
+        return;
+    }
+
     //score updation
     if (UserAnswers == answers[currentIndex]) {
         score += 5
@@ -126,7 +131,8 @@ function nextQuestion() {
 
     //question end logic
     if (currentIndex >= questions.length) {
-        questionBox.innerText = "Congratulation your Score is" + score
+        questionBox.innerText = `🎉 Congratulations! Your Score is ${score}/${questions.length * 5}`;
+
         labels[0].innerText = ""
         labels[1].innerText = ""
         labels[2].innerText = ""
