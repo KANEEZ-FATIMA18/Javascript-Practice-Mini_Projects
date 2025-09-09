@@ -1,0 +1,22 @@
+@media (max-width:1100px) {
+    .child{
+        width: 80%;
+    }
+    
+}
+
+@media (max-width:900px) {
+    .child{
+        width: 90%;
+    }
+}
+
+@media (max-width:520px) {
+    .child{
+        width: 95%;
+        height: 550px;
+    }
+    #btn{
+        margin-top: 30px;
+    }
+}

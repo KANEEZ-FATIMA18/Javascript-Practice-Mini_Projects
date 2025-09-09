@@ -1,0 +1,37 @@
+
+@media (max-width:1300px) {
+    .child{
+        width: 70%;
+        height: 40vh;
+    }
+}
+
+@media (max-width:700px) {
+    #btn{
+        width: 80%;
+    }
+    .child{
+        height: 45vh;
+        width: 90%;
+    }
+    #quotes-box{
+        width: 95%;
+    }
+}
+
+
+@media (max-width:400px) {
+    #btn{
+        width: 80%;
+    }
+    .child{
+        height: 50vh;
+        width: 90%;
+    }
+    #quotes-box{
+        width: 95%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+}

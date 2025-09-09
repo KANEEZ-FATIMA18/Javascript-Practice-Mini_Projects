@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+
+
+    /* background: hsla(207, 88%, 23%, 1);
+
+    background: linear-gradient(to right,
+            hsla(207, 88%, 23%, 1) 0%,
+            hsla(69, 78%, 32%, 1) 50%,
+            hsla(58, 100%, 52%, 1) 100%);
+
+
+    background: -moz-linear-gradient(to right,
+            hsla(207, 88%, 23%, 1) 0%,
+            hsla(69, 78%, 32%, 1) 50%,
+            hsla(58, 100%, 52%, 1) 100%);
+
+
+    background: -webkit-linear-gradient(to right,
+            hsla(207, 88%, 23%, 1) 0%,
+            hsla(69, 78%, 32%, 1) 50%,
+            hsla(58, 100%, 52%, 1) 100%);
+
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#074170", endColorstr="#7E9012", GradientType=1); */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+background-color: #edf6f9;
+
+
+
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 50%;
+    border-radius: 15px;
+    /* background-color: #204669; */
+
+  background-color: #83c5be;
+  box-shadow: 10px 10px 15px rgba(135, 129, 129, 0.885);
+  
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px 0px;
+    /* color: #e2fb02;
+    color: #F8F10B; */
+    color: #edf6f9;
+    color: black;
+    text-shadow: 2px 2px 5px rgb(34, 34, 40);
+    text-shadow: 3px 3px 5px #b8ced6;
+}
+
+#question {
+    width: 95%;
+    min-height: 50px;
+    background-color: #F8F10B;
+
+    background-color: #edf6f9;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 7px rgb(41, 41, 41);
+    text-align: center;
+    padding: 15px ;
+    font-size: 1.2rem;
+}
+
+#btn,#reset{
+    background-color: #F8F10B;
+  background-color: black;
+    color: #a0e4dd;
+    
+    border: none;
+   
+    font-size: 1.05rem;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 10px auto;
+    box-shadow: 3px 3px 7px #191e22;
+}
+
+#btn:hover,#reset:hover{
+  background-color: #edf6f9;
+   color: black;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+#options {
+ 
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+
+.option-child {
+       border-bottom:2px solid #e0e0e04d;
+    display: flex;
+    gap: 15px;
+    color: white;
+    padding-bottom: 5px;
+ 
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: black;
+
+}
+
+input {
+    accent-color:  #006d77;;
+    border: none;
+
+}
