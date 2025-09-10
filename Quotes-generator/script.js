@@ -1,4 +1,4 @@
-var motivationQuotes = [
+var MyQuotes = [
     "Push yourself, because no one else is going to do it for you.",
     "Great things never come from comfort zones.",
     "Dream it. Wish it. Do it.",
@@ -8,9 +8,7 @@ var motivationQuotes = [
     "Success is not in what you have, but who you are.",
     "Difficulties in life are meant to make us better, not bitter.",
     "Don’t let yesterday take up too much of today.",
-    "Mistakes are proof that you are trying."
-];
-var learningQuotes = [
+    "Mistakes are proof that you are trying.",
     "Learning never exhausts the mind.",
     "Education is the most powerful weapon you can use to change the world.",
     "The expert in anything was once a beginner.",
@@ -23,9 +21,8 @@ var learningQuotes = [
     "Push yourself to keep learning every day."
 ];
 
-var MyQuotes = motivationQuotes + learningQuotes;
 
-var allQuotes = MyQuotes.slice(); // working copy
+var allQuotes = MyQuotes.slice(); 
 
 var box = document.getElementById("quotes-box");
 var button = document.getElementById("btn");
@@ -54,16 +51,5 @@ function GenerateQuote() {
 }
 
 
-// function motivational(){
-//     moti =allQuotes[randomQuote]
-//     box.innerText =moti[randomQuote]
 
-// }
-
-
-function ResetBtn() {
-    allQuotes = MyQuotes.slice()
-    box.innerText = 'Quotes are reset! 🎉'
-
-}
 
