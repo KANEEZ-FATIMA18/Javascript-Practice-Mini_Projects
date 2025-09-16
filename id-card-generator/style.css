@@ -1,0 +1,177 @@
+.main {
+    width: 100%;
+     background: hsla(176, 61%, 87%, 1);
+    background: linear-gradient(90deg, hsla(176, 61%, 87%, 1) 0%, hsla(150, 54%, 86%, 1) 50%, hsla(301, 68%, 84%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(176, 61%, 87%, 1) 0%, hsla(150, 54%, 86%, 1) 50%, hsla(301, 68%, 84%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(176, 61%, 87%, 1) 0%, hsla(150, 54%, 86%, 1) 50%, hsla(301, 68%, 84%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#CAF2EF", endColorstr="#C9EFDC", GradientType=1); 
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.child {
+    height: auto;
+    width: 37%;
+    margin: 30px auto;
+    border-radius: 31px;
+    box-shadow: 16px 16px 32px #b5b5b5,
+        -16px -16px 32px #ffffff;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background: linear-gradient(90deg, #3c8a2a 0%, #4c99d4 40%, #a1144d 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.inputs-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.input-child {
+    margin: 10px;
+    padding: 15px;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: inset 8px 8px 16px #d1d1d1,
+        inset -8px -8px 16px #ffffff;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: semibold;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    border-radius: 7px;
+    border: 2px solid rgb(241, 137, 241);
+    padding: 20px;
+    margin-top: 15px;
+}
+input:focus {
+    border: 2px solid #d895e5;
+    box-shadow: 0 0 10px #c777d7;
+    outline: none;
+}
+
+button {
+    margin: 20px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 8px 8px 16px #e7e6e6,
+        -3px -3px 16px #ba6b6b;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: semibold;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #EFBEEF;
+    color: #a119bc;
+
+
+}
+
+button:focus {
+    box-shadow: 0 0 10px #c777d7;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* id page css */
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background: linear-gradient(90deg, #3c8a2a 0%, #4c99d4 40%, #a1144d 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+img{
+    width: 180px;
+    height: 180px;
+    object-position: center;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 8px 8px 16px #b5b5b5,
+        -8px -8px 16px #ffffff;
+    margin-top: 10px;
+    border: 5px solid #c59dca;
+}
+img:hover{
+    transform: scale(1.1);
+    transition: all 0.9s ease-in-out;
+    box-shadow: 0 0 20px #c777d7;
+}
+.id-child{
+   text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: semibold;
+}
+
+.id-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+#father ,#dob,#cnic, #phone,#qualification,#email{
+    margin: 10px auto;
+    font-size: 17px;
+    color: #000000;
+    width: 90%;
+    background-color:transparent;
+    height: 40px; 
+    box-shadow: 3px 3px 16px #9c9c9c,
+        -3px -3px 16px #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0.7rem 0.5rem;
+    font-weight: semibold;
+
+}
+span{
+    color: #4c99d4;
+    padding-left: 0.5rem;
+    font-weight:500;
+    font-size: 1.1rem;
+ 
+
+}

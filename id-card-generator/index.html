@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ID CARD GENERATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+</head>
+
+<body>
+    <section class="main" id="id-main">
+        <!-- form section  -->
+        <div class="child" id="form-section">
+            <h1>ID CARD GENERATOR</h1>
+
+            <div class="inputs-main">
+                <div class="input-child">
+                    <label>
+                        Name
+                        <br>
+                        <input type="text" placeholder="Name" id="input-name">
+                    </label>
+                </div>
+                <div class="input-child">
+                    <label>
+                        Father's Name
+                        <br>
+                        <input type="text" placeholder="Father's Name" id="input-father">
+                    </label>
+                </div>
+
+                <div class="input-child">
+                    <label>
+                        Email
+                        <br>
+                        <input type="email" placeholder="Email" id="input-email">
+                    </label>
+                </div>
+                <div class="input-child">
+                    <label>
+                        Date of Birth
+                        <br>
+                        <input type="date" placeholder="Date of Birth" id="input-dob">
+                    </label>
+                </div>
+                <div class="input-child">
+                    <label>
+                        CNIC Number
+                        <br>
+                        <input type="number" placeholder="CNIC Number" id="input-cnic">
+                    </label>
+                </div>
+                <div class="input-child">
+                    <label>
+                        Phone Number
+                        <br>
+                        <input type="number" placeholder="Phone Number" id="input-phone">
+                    </label>
+                </div>
+
+                <div class="input-child">
+                    <label>
+                        Qualification
+                        <br>
+                        <input type="text" placeholder="Qualification" id="input-qualification">
+                    </label>
+                </div>
+
+                <div class="input-child">
+                    <label>
+                        Upload Photo
+                        <br>
+                        <input type="file" placeholder="Upload Photo" style="padding: 6px 10px;" id="input-photo">
+                    </label>
+                </div>
+
+                <button id="btn" onclick="generateID()">Generate ID</button>
+            </div>
+        </div>
+        <!-- id card page  -->
+        <div class="child id-child" id="id-section" style="display: none;">
+            <div class="id-photo">
+                <img alt="Photo" id="photo-value">
+            </div>
+
+            <div class="id-details">
+                <h1 id="name-value">ID CARD</h1>
+
+                <p id="father">Father's Name:
+                    <span id="father-value"></span>
+                </p>
+                <p id="email">
+                    Email:
+                    <span id="email-value"></span>
+                </p>
+                <p id="dob">Date of Birth:
+                    <span id="dob-value"></span>
+                </p>
+                <p id="cnic">CNIC Number:
+                    <span id="cnic-value"></span>
+                </p>
+                <p id="phone">
+                    Phone Number:
+                    <span id="phone-value"></span>
+                </p>
+                <p id="qualification">
+                    Qualification:
+                    <span id="qualification-value"></span>
+                </p>
+    </section>
+</body>
+
+<script src="scripts.js"></script>
+
+</html>

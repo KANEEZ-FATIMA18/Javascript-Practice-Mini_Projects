@@ -1,0 +1,58 @@
+@media (max-width: 1237px) {
+    .child {
+        width: 50%;
+    }
+     button{
+        width: 60%;
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .child {
+        width: 70%;
+    }
+   
+}
+
+@media (max-width: 600px) {
+    .child {
+        width: 85%;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    button{
+        width: 75%;
+    }
+}
+
+@media (max-width: 400px) {
+    .child {
+        width: 94%;
+        
+    }
+    .input-child {
+        width: 90%;
+        font-size: 1rem;
+    }
+    input {
+        width: 100%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    button{
+        width: 85%;
+        font-size: 1rem;
+    }
+    #email{
+       overflow-wrap: unset;
+    }
+   span{
+    font-size: 0.9rem;
+   }
+   #father ,#dob,#cnic, #phone,#qualification,#emai{
+    font-size: 1rem;
+   }
+}
